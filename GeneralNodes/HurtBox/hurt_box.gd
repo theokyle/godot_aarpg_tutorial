@@ -5,7 +5,7 @@ class_name HurtBox extends Area2D
 func _ready():
 	area_entered.connect( AreaEntered )
 	
-func _process(delta):
+func _process( _delta):
 	pass
 
 func AreaEntered( area : Area2D ) -> void:
